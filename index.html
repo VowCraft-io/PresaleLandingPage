@@ -451,7 +451,7 @@
             },
             {
               question: "Is there a money-back guarantee?",
-              answer: "Yes! We offer a 30-day money-back guarantee. If you're not completely satisfied with VowCraft AI, we'll refund your full payment, no questions asked. We're confident you'll love the platform, but we want you to feel secure in your purchase."
+              answer: "For post-launch subscriptions only: We offer a 7-day money-back guarantee with refunds adjusted for AI credits used. This ensures fairness for both parties. Subscriptions can be cancelled anytime. Note: Presale lifetime access purchases are final and non-refundable as they include significant discounts and bonus credits."
             }
           ];
 
@@ -1150,7 +1150,7 @@
                       "Cultural ceremony planning",
                       "Mobile app access",
                       "Priority support & all future features",
-                      "30-day money-back guarantee"
+                      "7-day guarantee for subscriptions (post-launch)"
                     ].map((feature, index) =>
                       React.createElement('li', { key: index, className: 'flex items-start gap-3' },
                         React.createElement(Check, { className: 'w-5 h-5 text-green-500 flex-shrink-0 mt-0.5' }),
@@ -1493,7 +1493,7 @@
                       
                       React.createElement('h2', { key: 'terms-h4', className: 'text-xl font-bold mt-6 mb-3' }, '4. CANCELLATION AND REFUNDS'),
                       React.createElement('p', { key: 'terms-p4', className: 'mb-4' }, 
-                        '30-day money-back guarantee for all purchases. Cancel anytime through your account settings. Cancellation takes effect at the end of the current billing period.'
+                        'For subscriptions (post-launch only): 7-day money-back guarantee with refunds adjusted for AI credits used. Cancel anytime through your account settings. Cancellation takes effect at the end of the current billing period. Presale lifetime access purchases are final and non-refundable.'
                       ),
                       
                       React.createElement('h2', { key: 'terms-h5', className: 'text-xl font-bold mt-6 mb-3' }, '5. INTELLECTUAL PROPERTY RIGHTS'),
@@ -1530,9 +1530,6 @@
                       React.createElement('h2', { key: 'cookie-h1', className: 'text-xl font-bold mb-4' }, 'Cookie Policy'),
                       React.createElement('p', { key: 'cookie-p1', className: 'mb-4' }, 'We use necessary cookies for functionality, analytics cookies for improvements (with consent), and marketing cookies for relevant content (with consent). Manage preferences in your browser settings or cookie banner.'),
                       React.createElement('p', { key: 'cookie-p2', className: 'mb-4' }, 'For details, see our full cookie policy at vowcraft.io/cookies')
-                    ] : showModal === 'refund' ? [
-                      React.createElement('h2', { key: 'refund-h1', className: 'text-xl font-bold mb-4' }, 'Refund Policy'),
-                      React.createElement('p', { key: 'refund-p1', className: 'mb-4' }, '30-day money-back guarantee on all purchases. Request refunds at support@vowcraft.io with order details. Refunds processed within 5-10 business days. No questions asked.')
                     ] : React.createElement('p', { className: 'text-gray-600' }, 'Content not found.')
                   )
                 )
