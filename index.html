@@ -230,6 +230,25 @@
       gtag('config', 'AW-17330092845');
     </script>
     
+    <!-- Event snippet for Kauf conversion page -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17330092845/CPacCIP2qv0aEK320MdA',
+          'value': 299.0,
+          'currency': 'USD',
+          'transaction_id': '',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+    
     <!-- Main Application -->
     <script>
         const { useState, useEffect } = React;
@@ -591,7 +610,14 @@
                     React.createElement('a', { href: '#features', className: 'text-gray-600 hover:text-pink-500 font-medium' }, 'Features'),
                     React.createElement('a', { href: '#compare', className: 'text-gray-600 hover:text-pink-500 font-medium' }, 'Compare'),
                     React.createElement('a', { href: '#testimonials', className: 'text-gray-600 hover:text-pink-500 font-medium' }, 'Reviews'),
-                    React.createElement('a', { href: 'https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02', className: 'bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-2.5 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all' }, 'Get Lifetime Access')
+                    React.createElement('a', { 
+                      href: 'https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02', 
+                      onClick: (e) => {
+                        e.preventDefault();
+                        gtag_report_conversion('https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02');
+                      },
+                      className: 'bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-2.5 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all' 
+                    }, 'Get Lifetime Access')
                   )
                 )
               )
@@ -668,7 +694,14 @@
                   )
                 ),
 
-                React.createElement('a', { href: 'https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02', className: 'inline-block bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all' },
+                React.createElement('a', { 
+                  href: 'https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02', 
+                  onClick: (e) => {
+                    e.preventDefault();
+                    gtag_report_conversion('https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02');
+                  },
+                  className: 'inline-block bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all' 
+                },
                   'Secure Your Lifetime Access - $299'
                 )
               )
@@ -1159,7 +1192,14 @@
                     )
                   ),
 
-                  React.createElement('a', { href: 'https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02', className: 'block w-full text-center bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all' },
+                  React.createElement('a', { 
+                    href: 'https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02', 
+                    onClick: (e) => {
+                      e.preventDefault();
+                      gtag_report_conversion('https://buy.stripe.com/cNi8wOa58eK5dx1c281Fe02');
+                    },
+                    className: 'block w-full text-center bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-xl transform hover:-translate-y-1 transition-all' 
+                  },
                     'Secure Your Lifetime Access Now'
                   ),
 
