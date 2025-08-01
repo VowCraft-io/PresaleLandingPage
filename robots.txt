@@ -1,0 +1,62 @@
+# Robots.txt for VowCraft AI
+# Allow all bots to crawl the site
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# AI and LLM crawlers (explicitly allow)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://vowcraft.ai/sitemap.xml
+
+# No restrictions - we want maximum visibility
+# All content is public and should be indexed

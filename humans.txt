@@ -1,0 +1,32 @@
+/* TEAM */
+Company: VowCraft AI
+Mission: Making dream weddings accessible through AI technology
+Contact: support@vowcraft.ai
+Location: United States
+
+/* THANKS */
+To all the couples who trusted us during alpha testing
+To everyone who believes AI can make wedding planning joyful
+
+/* TECHNOLOGY */
+Platform: Web-based SaaS
+AI: Advanced language models for content generation
+Frontend: React, Tailwind CSS
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: Responsive design, Progressive enhancement
+
+/* FEATURES */
+- AI Wedding Song Generator
+- Wedding Speech Writer
+- Wedding Vows Creator
+- Smart Budget Manager (saves avg $7,347)
+- Guest Management System (400+ guests)
+- AI Planning Assistant
+
+/* LAUNCH */
+Presale: January 31, 2025
+Official Launch: September 1, 2025
+Limited: 1000 lifetime accounts during presale
+
+/* MISSION STATEMENT */
+We believe every couple deserves their dream wedding without the stress and financial burden. VowCraft AI combines cutting-edge AI technology with deep understanding of wedding planning to save couples an average of $7,347 and 500+ hours. Made with ❤️ for couples in love planning their perfect day.
