@@ -2,7 +2,7 @@
 
 🎯 **AI-Powered Wedding Planning Platform**
 
-This repository contains the static landing page for VowCraft AI, hosted on GitHub Pages at [vowcraft.io](https://vowcraft.io).
+This repository contains the static landing page for VowCraft AI, hosted on GitHub Pages at [www.vowcraft.io](https://www.vowcraft.io).
 
 ## 🚀 About VowCraft AI
 
@@ -25,14 +25,13 @@ VowCraft AI is a comprehensive wedding planning platform that combines 6 AI-powe
 
 This site is automatically deployed to GitHub Pages from the `main` branch.
 
-- **Production URL**: https://vowcraft.io
-- **GitHub Pages URL**: https://[username].github.io/vowcraft-landing
+- **Production URL**: https://www.vowcraft.io
 
 ## 📁 File Structure
 
 ```
 /
-├── index.html              # Main landing page
+├── index.html             # Main landing page
 ├── vowcraft.gif           # Hero animation/demo
 ├── sitemap.xml            # SEO sitemap
 ├── robots.txt             # Crawler instructions
@@ -67,15 +66,15 @@ This site is automatically deployed to GitHub Pages from the `main` branch.
 
 ## 📞 Contact
 
-- **Website**: https://vowcraft.ai
-- **Support**: support@vowcraft.ai
-- **Security**: security@vowcraft.ai
+- **Website**: https://www.vowcraft.io
+- **Support**: support@vowcraft.io
+- **Security**: security@vowcraft.io
 
 ## 🚀 Launch Timeline
 
-- **Presale Started**: January 31, 2025
+- **Presale Started**: July 31, 2025
 - **Official Launch**: September 1, 2025
-- **Limited**: 1000 lifetime accounts during presale
+- **Limited**: 1,000 lifetime accounts during presale
 
 ---
 
