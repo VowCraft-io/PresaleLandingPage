@@ -1,0 +1,5 @@
+Contact: mailto:security@vowcraft.ai
+Expires: 2026-01-31T00:00:00.000Z
+Acknowledgments: https://vowcraft.ai/security-thanks
+Preferred-Languages: en
+Canonical: https://vowcraft.ai/.well-known/security.txt

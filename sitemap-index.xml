@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main sitemap -->
+    <sitemap>
+        <loc>https://vowcraft.ai/sitemap.xml</loc>
+        <lastmod>2025-01-31</lastmod>
+    </sitemap>
+    
+    <!-- Future sitemaps as the site grows -->
+    <!-- <sitemap>
+        <loc>https://vowcraft.ai/sitemap-blog.xml</loc>
+        <lastmod>2025-01-31</lastmod>
+    </sitemap> -->
+</sitemapindex>
